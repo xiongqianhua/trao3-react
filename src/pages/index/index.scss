@@ -1,0 +1,29 @@
+.indexPage{
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #17171D;
+  .imgBg{
+    width: 100vw;
+    height: fit-content;
+    object-fit:contain;
+  }
+  .scanIcon{
+    width: 6vw;
+    height: fit-content;
+    object-fit: contain;
+  }
+  .scanQrButton{
+    position: fixed;
+    width: 50vw;
+    left: 50%;
+    bottom: 5vh;
+    transform: translate(-50%,-50%);
+    border-radius: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+  }
+}

@@ -1,0 +1,25 @@
+.qrChargeBotPage{
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #17171D;
+  .wait-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .imgBanner{
+    width: 90vw;
+    object-fit:contain;
+    margin: 8vw 0;
+  }
+  .tips{
+    display: inline-block;
+    color: #D6E1EF;
+    font-size: 4vw;
+    text-align: center;
+    padding: 1vw 2vw;
+  }
+}
